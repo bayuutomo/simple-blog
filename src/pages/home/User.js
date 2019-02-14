@@ -36,7 +36,7 @@ class Layout extends Component {
     }
 	
 	handleAlbumClose() {
-		this.setState({ photoList : [], albumShow: false, albumTitle: '' });
+		this.setState({ photoList : [], albumShow: false, albumTitle: '', isPhotoLoaded: false });
 	}
 	
 	handleAlbumShow(e, id, title) {
@@ -49,7 +49,7 @@ class Layout extends Component {
 	}
 	
 	handlePostClose() {
-		this.setState({ commentList : [], postShow: false, postTitle: '', postBody: '' });
+		this.setState({ commentList : [], postShow: false, postTitle: '', postBody: '', isCommentLoaded: false });
 	}
 	
 	handlePostShow(e, id, title, body) {
