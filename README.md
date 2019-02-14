@@ -13,6 +13,8 @@ Install node js on current project.
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+[Live Demo](https://simple-blog-bayu.herokuapp.com/).
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
