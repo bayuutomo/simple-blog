@@ -1,3 +1,5 @@
+import axios from 'axios';
+
 export function GetRequest(url) {
     return BaseRequest('GET', url, {});
 }
@@ -9,9 +11,8 @@ export function PostRequest(url, data = {}) {
 function BaseRequest(method, url, data = {}) {
     
     if(method !== 'GET') {
-    	
+    	/*
     	var body = { data };
-        
 	    return (fetch(url, {
 	        method: method,
 	        headers: {
@@ -26,7 +27,12 @@ function BaseRequest(method, url, data = {}) {
 	        console.log('Error fetching and parsing data', error);
 	        window.alert("An error accured : \n" + error);
 	    }));
+	    */
+    	return axios.post(url, {data}).then((response) => {
+	        return response;
+	    });
     } else {
+    	/*
     	return (fetch(url, {
 	        method: method,
 	        headers: {
@@ -40,5 +46,9 @@ function BaseRequest(method, url, data = {}) {
 	        console.log('Error fetching and parsing data', error);
 	        window.alert("An error accured : \n" + error);
 	    }));
+	    */
+    	return axios.get(url).then((response) => {
+	        return response.data;
+	    });
     }
 }
