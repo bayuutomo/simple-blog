@@ -1,5 +1,5 @@
 /*
-    update index updated lagi
+    update index updated lagi dan lagi
 */
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
