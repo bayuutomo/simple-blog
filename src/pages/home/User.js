@@ -297,7 +297,7 @@ class Layout extends Component {
 								</Form.Group>
 							</Col>
 						</Row>
-						<hr/>
+						<hr className="col"/>
 						<Row>
 							<Col md="6">
 								<h5 className="mt-3">Post List</h5>
