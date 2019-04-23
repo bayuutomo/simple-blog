@@ -64,7 +64,7 @@ class Layout extends Component {
         }
 		return(
 			<React.Fragment>
-				<Row>
+				<Row className="colBayu">
 					<Col xs lg="12">
 						<h3 className="mt-3">User List</h3>
 					</Col>
