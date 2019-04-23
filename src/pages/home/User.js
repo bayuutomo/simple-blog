@@ -1,5 +1,5 @@
 /*
-    update user updated lagi dan lagi
+    update user
 */
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
