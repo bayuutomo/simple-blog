@@ -1,3 +1,6 @@
+/*
+    update user
+*/
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Table, Row, Col, Form, Modal, Button, Card, Jumbotron } from 'react-bootstrap';
