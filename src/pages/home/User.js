@@ -1,6 +1,5 @@
 /*
-    update user update
-    beda line
+    update user updated lagi
 */
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
