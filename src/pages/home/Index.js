@@ -1,10 +1,9 @@
-/*test*/
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Row, Col, Table } from 'react-bootstrap';
 import { api } from '../../config/Services';
 import { GetRequest } from '../../services/RequestService';
-
+/*test*/
 class Layout extends Component {
 	constructor(props) {
         super(props);
