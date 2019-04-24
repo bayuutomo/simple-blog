@@ -7,7 +7,7 @@ import { Table, Row, Col, Form, Modal, Button, Card, Jumbotron } from 'react-boo
 import { api } from '../../config/Services';
 import { GetRequest } from '../../services/RequestService';
 import ErrorPage from '../error/Error404';
-/* contoh bawah */
+/* contoh bawah1 */
 class Layout extends Component {
 	constructor(props) {
         super(props);
