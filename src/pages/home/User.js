@@ -1,10 +1,13 @@
+/*
+	contoh
+*/
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Table, Row, Col, Form, Modal, Button, Card, Jumbotron } from 'react-bootstrap';
 import { api } from '../../config/Services';
 import { GetRequest } from '../../services/RequestService';
 import ErrorPage from '../error/Error404';
-
+/* contoh bawah */
 class Layout extends Component {
 	constructor(props) {
         super(props);
