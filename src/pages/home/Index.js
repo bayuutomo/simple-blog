@@ -1,6 +1,3 @@
-/*
-    update index
-*/
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Row, Col, Table } from 'react-bootstrap';
